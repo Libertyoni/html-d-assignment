@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: grey;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 5%;
+}
+
+.left-sidebar {
+  flex-basis: 25%;
+}
+
+.right-sidebar {
+  flex-basis: 25%;
+}
+.main-content {
+  flex-basis: 47%;
+}
+.contain {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 200px;
+  height: 45px;
+}
+
+.box {
+  width: 150px;
+  height: 300px;
+  float: left;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+}
+
+.story img {
+  position: absolute;
+  width: 45px;
+  border-radius: 50%;
+  top: 10px;
+  left: 10px;
+  border: 5px solid #1876f2;
+  transition: transform 0.2s;
+}
+.box-1 {
+  background-image: url("WhatsApp Image 2021-12-03 at 11.28.09.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.box-2 {
+  background-image: url("wtsap2.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.box-3 {
+  background-image: url("wtsap3.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.box-4 {
+  background-image: url("wtsap3.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.box-5 {
+  background-image: url("wtsap5.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.box-6 {
+  background-image: url("wtsap6.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.write-post {
+  width: 99%;
+  background: #ffffff;
+  border-radius: 6px;
+  padding: 20px;
+  color: #626262;
+  box-shadow: 0 1px 1px;
+  margin-top: 250px;
+}
+
+.write-post textarea {
+  width: 100;
+  border: none;
+  padding-top: 15px;
+  padding-left: 8px;
+  outline: 0;
+  text-align: left;
+  border-radius: 20px;
+  background: #e4e6e9;
+  resize: none;
+}
+
+.write-post textarea::placeholder {
+  overflow: visible;
+  font-size: 17px;
+}
+
+.write-post hr {
+  margin-top: 7px;
+  border: none;
+  height: 1px;
+  background-color: #e4e6e9;
+  color: #e4e6e9;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+}
+
+.user-profile img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.link-one {
+  padding-left: 55px;
+  padding-top: 20px;
+}
+
+.write-post textarea {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  border-radius: 20px;
+  border-bottom: 1px solid #ccc;
+  background: #e4e6e9;
+  resize: none;
+}
+
+.link-two {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.link-two a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #626262;
+  margin-right: 30px;
+  font-size: 13px;
+}
+
+.link-two a img {
+  width: 20px;
+  margin-right: 10px;
+}
